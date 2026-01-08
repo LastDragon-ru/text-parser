@@ -1,9 +1,9 @@
 <?php declare(strict_types = 1);
 
-namespace LastDragon_ru\DiyParser\Iterables;
+namespace LastDragon_ru\TextParser\Iterables;
 
 use IteratorAggregate;
-use LastDragon_ru\DiyParser\Tokenizer\Token;
+use LastDragon_ru\TextParser\Tokenizer\Token;
 use Override;
 use Traversable;
 use UnitEnum;

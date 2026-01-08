@@ -1,9 +1,9 @@
 <?php declare(strict_types = 1);
 
-namespace LastDragon_ru\DiyParser\Iterables;
+namespace LastDragon_ru\TextParser\Iterables;
 
-use LastDragon_ru\DiyParser\Exceptions\OffsetOutOfBounds;
-use LastDragon_ru\DiyParser\Package\TestCase;
+use LastDragon_ru\TextParser\Exceptions\OffsetOutOfBounds;
+use LastDragon_ru\TextParser\Package\TestCase;
 use PHPUnit\Framework\Attributes\CoversClass;
 
 use function iterator_to_array;

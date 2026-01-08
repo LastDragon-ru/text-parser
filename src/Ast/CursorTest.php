@@ -1,9 +1,9 @@
 <?php declare(strict_types = 1);
 
-namespace LastDragon_ru\DiyParser\Ast;
+namespace LastDragon_ru\TextParser\Ast;
 
-use LastDragon_ru\DiyParser\Exceptions\OffsetReadonly;
-use LastDragon_ru\DiyParser\Package\TestCase;
+use LastDragon_ru\TextParser\Exceptions\OffsetReadonly;
+use LastDragon_ru\TextParser\Package\TestCase;
 use Override;
 use PHPUnit\Framework\Attributes\CoversClass;
 use Traversable;

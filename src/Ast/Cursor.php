@@ -1,11 +1,11 @@
 <?php declare(strict_types = 1);
 
-namespace LastDragon_ru\DiyParser\Ast;
+namespace LastDragon_ru\TextParser\Ast;
 
 use ArrayAccess;
 use Countable;
 use IteratorAggregate;
-use LastDragon_ru\DiyParser\Exceptions\OffsetReadonly;
+use LastDragon_ru\TextParser\Exceptions\OffsetReadonly;
 use Override;
 use Traversable;
 

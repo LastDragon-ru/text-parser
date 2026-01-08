@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace LastDragon_ru\DiyParser\Docs\Calculator\Ast;
+namespace LastDragon_ru\TextParser\Docs\Calculator\Ast;
 
 abstract class OperatorNode implements ExpressionNodeChild {
     public function __construct() {

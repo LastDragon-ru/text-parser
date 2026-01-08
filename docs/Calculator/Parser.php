@@ -1,19 +1,19 @@
 <?php declare(strict_types = 1);
 
-namespace LastDragon_ru\DiyParser\Docs\Calculator;
+namespace LastDragon_ru\TextParser\Docs\Calculator;
 
-use LastDragon_ru\DiyParser\Docs\Calculator\Ast\ExpressionNode;
-use LastDragon_ru\DiyParser\Docs\Calculator\Ast\ExpressionNodeChild;
-use LastDragon_ru\DiyParser\Docs\Calculator\Ast\ExpressionNodeFactory;
-use LastDragon_ru\DiyParser\Docs\Calculator\Ast\NumberNode;
-use LastDragon_ru\DiyParser\Docs\Calculator\Ast\OperatorAdditionNode;
-use LastDragon_ru\DiyParser\Docs\Calculator\Ast\OperatorDivisionNode;
-use LastDragon_ru\DiyParser\Docs\Calculator\Ast\OperatorMultiplicationNode;
-use LastDragon_ru\DiyParser\Docs\Calculator\Ast\OperatorNode;
-use LastDragon_ru\DiyParser\Docs\Calculator\Ast\OperatorSubtractionNode;
-use LastDragon_ru\DiyParser\Iterables\TransactionalIterable;
-use LastDragon_ru\DiyParser\Tokenizer\Token;
-use LastDragon_ru\DiyParser\Tokenizer\Tokenizer;
+use LastDragon_ru\TextParser\Docs\Calculator\Ast\ExpressionNode;
+use LastDragon_ru\TextParser\Docs\Calculator\Ast\ExpressionNodeChild;
+use LastDragon_ru\TextParser\Docs\Calculator\Ast\ExpressionNodeFactory;
+use LastDragon_ru\TextParser\Docs\Calculator\Ast\NumberNode;
+use LastDragon_ru\TextParser\Docs\Calculator\Ast\OperatorAdditionNode;
+use LastDragon_ru\TextParser\Docs\Calculator\Ast\OperatorDivisionNode;
+use LastDragon_ru\TextParser\Docs\Calculator\Ast\OperatorMultiplicationNode;
+use LastDragon_ru\TextParser\Docs\Calculator\Ast\OperatorNode;
+use LastDragon_ru\TextParser\Docs\Calculator\Ast\OperatorSubtractionNode;
+use LastDragon_ru\TextParser\Iterables\TransactionalIterable;
+use LastDragon_ru\TextParser\Tokenizer\Token;
+use LastDragon_ru\TextParser\Tokenizer\Tokenizer;
 use LogicException;
 
 use function filter_var;

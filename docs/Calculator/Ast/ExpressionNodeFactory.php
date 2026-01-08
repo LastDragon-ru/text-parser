@@ -1,8 +1,8 @@
 <?php declare(strict_types = 1);
 
-namespace LastDragon_ru\DiyParser\Docs\Calculator\Ast;
+namespace LastDragon_ru\TextParser\Docs\Calculator\Ast;
 
-use LastDragon_ru\DiyParser\Ast\NodeParentFactory;
+use LastDragon_ru\TextParser\Ast\NodeParentFactory;
 use LogicException;
 use Override;
 

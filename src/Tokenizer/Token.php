@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace LastDragon_ru\DiyParser\Tokenizer;
+namespace LastDragon_ru\TextParser\Tokenizer;
 
 use Override;
 use Stringable;

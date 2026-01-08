@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace LastDragon_ru\DiyParser\Package;
+namespace LastDragon_ru\TextParser\Package;
 
 use LastDragon_ru\LaraASP\Testing\Concerns\StrictAssertEquals;
 use LastDragon_ru\LaraASP\Testing\Utils\WithTestData;

@@ -1,8 +1,8 @@
 <?php declare(strict_types = 1);
 
-namespace LastDragon_ru\DiyParser\Tokenizer;
+namespace LastDragon_ru\TextParser\Tokenizer;
 
-use LastDragon_ru\DiyParser\Package\TestCase;
+use LastDragon_ru\TextParser\Package\TestCase;
 use PHPUnit\Framework\Attributes\CoversClass;
 
 use function iterator_to_array;

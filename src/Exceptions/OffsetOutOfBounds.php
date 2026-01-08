@@ -1,8 +1,8 @@
 <?php declare(strict_types = 1);
 
-namespace LastDragon_ru\DiyParser\Exceptions;
+namespace LastDragon_ru\TextParser\Exceptions;
 
-use LastDragon_ru\DiyParser\PackageException;
+use LastDragon_ru\TextParser\PackageException;
 use Throwable;
 
 use function sprintf;

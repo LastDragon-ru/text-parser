@@ -1,14 +1,14 @@
 <?php declare(strict_types = 1);
 
-namespace LastDragon_ru\DiyParser\Docs\Calculator;
+namespace LastDragon_ru\TextParser\Docs\Calculator;
 
-use LastDragon_ru\DiyParser\Docs\Calculator\Ast\ExpressionNode;
-use LastDragon_ru\DiyParser\Docs\Calculator\Ast\NumberNode;
-use LastDragon_ru\DiyParser\Docs\Calculator\Ast\OperatorAdditionNode;
-use LastDragon_ru\DiyParser\Docs\Calculator\Ast\OperatorDivisionNode;
-use LastDragon_ru\DiyParser\Docs\Calculator\Ast\OperatorMultiplicationNode;
-use LastDragon_ru\DiyParser\Docs\Calculator\Ast\OperatorSubtractionNode;
-use LastDragon_ru\DiyParser\Package\TestCase;
+use LastDragon_ru\TextParser\Docs\Calculator\Ast\ExpressionNode;
+use LastDragon_ru\TextParser\Docs\Calculator\Ast\NumberNode;
+use LastDragon_ru\TextParser\Docs\Calculator\Ast\OperatorAdditionNode;
+use LastDragon_ru\TextParser\Docs\Calculator\Ast\OperatorDivisionNode;
+use LastDragon_ru\TextParser\Docs\Calculator\Ast\OperatorMultiplicationNode;
+use LastDragon_ru\TextParser\Docs\Calculator\Ast\OperatorSubtractionNode;
+use LastDragon_ru\TextParser\Package\TestCase;
 use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\DataProvider;
 

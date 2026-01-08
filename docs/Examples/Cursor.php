@@ -1,11 +1,11 @@
 <?php declare(strict_types = 1);
 
-namespace LastDragon_ru\DiyParser\Docs\Examples;
+namespace LastDragon_ru\TextParser\Docs\Examples;
 
-use LastDragon_ru\DiyParser\Ast\Cursor;
-use LastDragon_ru\DiyParser\Docs\Calculator\Ast\ExpressionNode;
-use LastDragon_ru\DiyParser\Docs\Calculator\Parser;
 use LastDragon_ru\LaraASP\Dev\App\Example;
+use LastDragon_ru\TextParser\Ast\Cursor;
+use LastDragon_ru\TextParser\Docs\Calculator\Ast\ExpressionNode;
+use LastDragon_ru\TextParser\Docs\Calculator\Parser;
 
 use function assert;
 

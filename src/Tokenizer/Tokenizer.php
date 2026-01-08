@@ -1,10 +1,10 @@
 <?php declare(strict_types = 1);
 
-namespace LastDragon_ru\DiyParser\Tokenizer;
+namespace LastDragon_ru\TextParser\Tokenizer;
 
 use BackedEnum;
-use LastDragon_ru\DiyParser\Iterables\StringTokenizeIterable;
-use LastDragon_ru\DiyParser\Iterables\TokenUnescapeIterable;
+use LastDragon_ru\TextParser\Iterables\StringTokenizeIterable;
+use LastDragon_ru\TextParser\Iterables\TokenUnescapeIterable;
 
 /**
  * @template TToken of BackedEnum

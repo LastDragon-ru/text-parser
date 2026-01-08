@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace LastDragon_ru\DiyParser\Ast;
+namespace LastDragon_ru\TextParser\Ast;
 
 use Override;
 

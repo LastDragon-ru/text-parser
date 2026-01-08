@@ -1,12 +1,12 @@
 <?php declare(strict_types = 1);
 
-namespace LastDragon_ru\DiyParser\Docs\Examples;
+namespace LastDragon_ru\TextParser\Docs\Examples;
 
-use LastDragon_ru\DiyParser\Ast\NodeChild;
-use LastDragon_ru\DiyParser\Ast\NodeParentFactory;
-use LastDragon_ru\DiyParser\Ast\NodeParentImpl;
-use LastDragon_ru\DiyParser\Ast\NodeString;
 use LastDragon_ru\LaraASP\Dev\App\Example;
+use LastDragon_ru\TextParser\Ast\NodeChild;
+use LastDragon_ru\TextParser\Ast\NodeParentFactory;
+use LastDragon_ru\TextParser\Ast\NodeParentImpl;
+use LastDragon_ru\TextParser\Ast\NodeString;
 use Override;
 
 // phpcs:disable PSR1.Files.SideEffects
